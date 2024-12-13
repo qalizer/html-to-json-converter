@@ -1,0 +1,30 @@
+{
+  "name": "html-to-json-converter",
+  "version": "1.0.0",
+  "description": "Convert html doc to json files",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qalizer/html-to-json-converter.git"
+  },
+  "keywords": [
+    "html",
+    "json",
+    "converter"
+  ],
+  "author": "Rubén Pozo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qalizer/html-to-json-converter/issues"
+  },
+  "homepage": "https://github.com/qalizer/html-to-json-converter#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "jsdom": "^25.0.1"
+  }
+}
