@@ -1,0 +1,33 @@
+{
+  "name": "html-to-json-converter",
+  "version": "1.0.0",
+  "description": "A library to convert HTML to JSON",
+  "main": "src/html-to-json-converter.js",
+  "scripts": {
+    "test": "jest",
+    "build": "babel src --out-dir lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qalizer/html-to-json-converter.git"
+  },
+  "keywords": [
+    "html",
+    "json",
+    "converter"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qalizer/html-to-json-converter/issues"
+  },
+  "homepage": "https://github.com/qalizer/html-to-json-converter#readme",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  },
+  "dependencies": {
+    "jsdom": "^25.0.1"
+  }
+}
