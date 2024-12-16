@@ -1,4 +1,4 @@
-const html_to_json = require('./.');
+const html_to_json = require('../src/html-to-json-translator.js');
 const fs = require('fs');
 
 test('Basic html file', () => {
